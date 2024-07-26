@@ -54,7 +54,26 @@ a {
 
 @media (width < 780px) {
   form {
-    width: 50vw;
+    width: 70vw;
     height: auto;
+  }
+
+  .inputfield {
+    width: 40vw;
+  }
+
+  .btn {
+    padding: 5px 10px;
+  }
+
+  p {
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
   }
 }
